@@ -199,7 +199,13 @@ void solveLinEquation (double a, double b, double c)
 int main() {
 
 	double a, b, c;
-	cin >> a >> b >> c;
+	cout << "Given the quadratic equation in the form of ax^2 + bx + c, provide constants a, b, and c." << endl;
+	cout << "Enter a: " << endl;
+	cin >> a;
+	cout << "Enter b: " << endl;
+	cin >> b;
+	cout << "Enter c: " << endl;
+	cin >> c;
 	if (a==0) {
 
 		solveLinEquation(a,b,c);
